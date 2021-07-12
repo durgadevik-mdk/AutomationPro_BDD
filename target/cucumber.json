@@ -1,0 +1,113 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 195563500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Set SkyBlue Background button exists",
+            "match": {
+              "location": "BBsteps.set_SkyBlue_Background_button_exists()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4121265300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "WBSteps.initializeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3496964900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BBsteps.initializeBrowser()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "1 User should able to change and verify background color",
+        "description": "",
+        "id": "sky-blue-background-change;1-user-should-able-to-change-and-verify-background-color",
+        "after": [
+          {
+            "result": {
+              "duration": 712683900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "WBSteps.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 668598100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BBsteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 118438400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on the button",
+            "match": {
+              "location": "BBsteps.i_click_on_the_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 103373400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the background color will change to sky blue",
+            "match": {
+              "location": "BBsteps.the_background_color_will_change_to_sky_blue()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@Execute1"
+          }
+        ]
+      }
+    ],
+    "name": "Sky Blue Background change",
+    "description": "",
+    "id": "sky-blue-background-change",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/Background.feature"
+  }
+]
